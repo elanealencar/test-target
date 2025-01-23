@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Verificador</title>
+</head>
+<body>
+  <h1>Verificador de Sequência de Fibonacci</h1>
+  <p>Digite um número abaixo para verificar se ele pertence à sequência de Fibonacci:</p>
+  
+  <form onsubmit="return false;">
+    <input type="number" id="numero" placeholder="Digite um número" required />
+    <button onclick="verificarFibonacci()">Verificar</button>
+  </form>
 
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
